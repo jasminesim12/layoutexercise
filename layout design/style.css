@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* This is a comment */
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+body{padding: 0; margin: 0;background-color: beige}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* unvisited link */
+a:link {
+	color: red; 
+	text-decoration: none
+}
+
+/* visited link */
+a:visited {
+	color: green;
+	text-decoration: none
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+	text-decoration: none
+}
+
+/* selected link */
+a:active {
+	color: blue;
+	text-decoration: none
+}
+
+#container {
+	width: 800px; 
+	background-color: darksalmon;
+	margin: 0 auto;
+	border: solid 1px #840507;
+	padding: 20px
+}
+
+#header {
+	height: 50px; 
+	background-color: ivory;
+}
+
+#main {
+	height: 1450px;
+	background-color: antiquewhite;
+	margin-top: 20px; 
+	padding: 20px;
+}
+
+#section-1 {
+	background-color: wheat;
+	margin-top: 20px; 
+	padding: 20px;
+}
+
+.box {
+	width: 250px;
+	height: 250px;
+	background-color:aliceblue;
+}
+
+#footer {
+	height: 100px;
+	background-color: ivory;
+	margin-top: 20px;
+	padding-left: 20px
+}
+
+#navi {
+	list-style: none;
+	text-align: center;
+}
+
+#navi li {
+	display: inline-block;
+	padding: 20px;
+}
+
+#navi2 {
+	list-style: none;
+	text-align: center;
+}
+
+#navi2 li {
+	display: inline-block;
+	padding: 20px;
+}
+
+
+
